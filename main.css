@@ -28,7 +28,8 @@ header {
 }
 
 .paragraph-box {
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
+    border-radius : 25px;
     padding: 10px;
     margin-bottom: 20px;
     background-color: transparent; /* Transparent white background */
