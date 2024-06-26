@@ -37,13 +37,16 @@ header {
 .paragraph-box h2 {
     font-size: 1.3em;
     margin-bottom: 10px;
+    background-color: transparent;
 }
 
 .paragraph-box h3 {
     font-size: 1.1em;
     margin-bottom: 10px;
+    background-color: transparent;
 }
 
 .paragraph-box p {
     margin: 0;
+    background-color: transparent;
 }
