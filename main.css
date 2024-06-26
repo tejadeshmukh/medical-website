@@ -50,4 +50,5 @@ header {
 .paragraph-box p {
     margin: 0;
     background-color: transparent;
+    border-radius : 25px;
 }
