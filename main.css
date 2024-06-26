@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('neurons.jpg'); /* Replace 'background.jpg' with the name of your image file */
+    background-image: url('bg.jpg'); /* Replace 'background.jpg' with the name of your image file */
     background-size: cover;
     background-position: center;
     margin: 0;
@@ -28,7 +28,7 @@ header {
 }
 
 .paragraph-box {
-    border: 2px solid #ccc;
+    border: 1px solid #ccc;
     border-radius : 25px;
     padding: 10px;
     margin-bottom: 20px;
