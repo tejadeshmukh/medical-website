@@ -1,15 +1,26 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #FFFF ; /* Replace 'background.jpg' with the name of your image file */
+    background-color: #FFFF;
     background-size: cover;
     background-position: center;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height */
+}
+
+.center-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     width: 80%;
-    margin: 0 auto;
     background-color: transparent;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -17,14 +28,16 @@ body {
 
 header {
     font-size: 2em;
-    font-weight :  bold;
+    font-weight: bold;
     text-align: center;
     margin-bottom: 20px;
 }
-.address{
+
+.address {
     font-size: 1em;
     text-align: center;
 }
+
 .subheader {
     font-size: 1.2em;
     margin-bottom: 10px;
@@ -33,10 +46,10 @@ header {
 
 .paragraph-box {
     border: 1px solid #ccc;
-    border-radius : 25px;
+    border-radius: 25px;
     padding: 10px;
     margin-bottom: 20px;
-    background-color: transparent; /* Transparent white background */
+    background-color: transparent;
 }
 
 .paragraph-box h2 {
@@ -54,5 +67,5 @@ header {
 .paragraph-box p {
     margin: 0;
     background-color: transparent;
-    border-radius : 25px;
+    border-radius: 25px;
 }
