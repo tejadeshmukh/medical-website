@@ -16,13 +16,13 @@ body {
 }
 
 header {
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight :  bold;
     text-align: center;
     margin-bottom: 20px;
 }
 .address{
-    font-size: 1em
+    font-size: 1em;
     text-align: center;
 }
 .subheader {
